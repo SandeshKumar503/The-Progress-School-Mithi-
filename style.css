@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.background-clip{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+
+}
+
+
+header {
+  display: flex;
+  background-clip:;
+  color: black;
+  padding: 10px 0 0 20px;
+  text-align: center;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-main{
+  height: auto;
+  width: 100px;
+}
+
+.logo {
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #ffd700;
+}
+
+/* Hero Section */
+#hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('logo.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.btn {
+  background: #ffd700;
+  color: #0d1a4d;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Section Styles */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #0d1a4d;
+  margin-bottom: 20px;
+}
+
+/* Programs */
+.program-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.program-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 280px;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #0d1a4d;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #002060;
+}
+
+#formMsg {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background: #0d1a4d;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
